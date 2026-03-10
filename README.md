@@ -18,21 +18,27 @@ This repository contains a collection of custom skills designed to enhance your 
 To integrate these skills into your VS Code environment:
 
 1.  **Clone Repository:**
+    Clone this repository to your machine.
+    ```bash
+    git clone https://github.com/ThiagoEvoa/agent_skills.git
+    ```
+
+2.  **Create Skills folder**
+    In the root of your project create this folder structure.
+    ```
+    project/
+    ├── .agents/                    
+    │   ├── skills/
+    │   │   └── skill_folder        
+   
+    ```
+
+3.  **User Settings (JSON):**
     Add this configuration to your User Settings (JSON)
     ```bash
     "chat.agentSkillsLocations": {
-        "~/{PATH}/agent_skills/skills": true
-    },
-    ```
-
-3.  **Configure Agent Extension:**
-    *   If your AI Agent extension supports local skill paths, configure it to point to the `skills/` directory within this project.
-    *   Ensure the path `~/{PATH}/agent_skills/skills` is accessible to the agent.
-    *   Add this configuration to your User Settings (JSON)
-    ```bash
-    "chat.agentSkillsLocations": {
-        "~/{PATH}/agent_skills/skills": true
-    },
+        "~/.agents/skills/": true
+    }
     ```
 
 4.  **Verify:**
