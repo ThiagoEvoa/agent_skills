@@ -4,8 +4,8 @@ description: Analyzes changed code against Clean Code, SOLID, Design Patterns an
 compatibility: Requires Git.
 license: MIT
 metadata: 
-   author: [Your Name/Handle]
-   version: "1.1.0"
+   author: thiagoevoa
+   version: "1.0.0"
    triggers:
      keywords: [review, best practices, refactor, analyze, improve]
 ---
@@ -41,5 +41,5 @@ Use this skill to evaluate code changes (`git diff`) against industry-standard a
 - `git_diff` (string, optional): The diff output. If not provided, the agent should attempt to run `git diff` in the current context.
 
 ## Examples
-- User says: "Review my dart changes"
+- User says: "Review my code changes"
 - Action: `git diff` -> Analyze results -> Provide improvement plan.
