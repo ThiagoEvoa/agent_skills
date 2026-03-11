@@ -6,7 +6,7 @@ license: MIT
 metadata: 
    author: thiagoevoa
    triggers:
-     keywords: [review, best practices, refactor, analyze, improve]
+     keywords: [review, best practices, refactor, dart code, flutter code]
 ---
 
 # Code Reviewer
